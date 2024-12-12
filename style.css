@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;  
+  text-align: center;
+}
+/* styles.css */
+/* styles.css */
+/* body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F8F9FA;
+} */
+
+/* styles.css */
+ body {
+  background: radial-gradient(circle, #87CEFA, #1E90FF); 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; 
+}
+
+#dob{
+    padding: 10px;
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button{
+  
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade of blue for hover effect */
+}
+#stopButton{
+  padding: 5px 10px;
+  background-color: #dc3545; /* Red color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#stopButton:hover {
+  background-color: #c82333; /* Darker red for hover effect */
+}
+
+
+
+.container {
+  background-color: #98FB98;
+  color: #1E90FF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+  text-align: center;
+}
+
+input, button {
+  margin-top: 10px;
+}
+
+.date-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.date-box {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 50px;
+  text-align: center;
+}
+#ageForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+#zodiacSign{
+  padding: 10px;
+  text-decoration: underline;
+  color: #c82333;
+}
+
+
+/* @media */
+@media (max-width: 768px) { 
+  .container { padding: 40px; display: flex;flex-direction: column;height: 50%;width: 60%;} 
+  .date-display { flex-direction: row; } 
+  .date-box { margin-right: 0; margin-bottom: 0; } 
+  .date-box:last-child { margin-bottom: 0; } 
+  .button { padding: 12px; } }
+
+
+@media (max-width: 480px) {
+   h1 { font-size: 24px;} label, input[type="date"], 
+   .button { font-size: 16px; } 
+   .date-box { font-size: 14px; padding: 8px; } 
+   .button { padding: 10px; }}
